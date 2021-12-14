@@ -14,7 +14,7 @@
 
 body{
     font-family: var(--main-font);
-    font-style: normal;
+    
 }
 
 /*Components*/
@@ -84,7 +84,6 @@ body{
     background: var(--hero-footer-bg);
 }
 .company-address {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
@@ -94,7 +93,6 @@ body{
     font-style: normal;
 }
 .footer-contacts {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1,714;
     letter-spacing: 0.03em;
@@ -106,15 +104,17 @@ body{
 .hero-section {
     background: var(--hero-footer-bg);
 }
+
 .hero {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.364;
+    line-height: 1.36;
     text-align: center;
-    letter-spacing: 00.06em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--hero-color);
 }
+
 /*List of benefits*/
 .benefits-title {
     font-weight: 700;
@@ -166,7 +166,6 @@ body{
     line-height: 1,188;
     text-align: center;
     letter-spacing: 00.03em;
-
     color: var(--text-color);
 }
 
@@ -179,7 +178,6 @@ body{
     border: none;
     text-align: center;
     letter-spacing: 0.03em;
-
     color: var(--title-color);
     background: var(--fill-team-bg);
 }
@@ -197,14 +195,12 @@ body{
     color: var(--title-color);
 }
 .project-type {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 00.03em;
     color: var(--text-color);
 }
 .project-description {
-    font-weight: 400;
     font-size: 18px;
     line-height: 1.555;
     letter-spacing: 0.03em;
