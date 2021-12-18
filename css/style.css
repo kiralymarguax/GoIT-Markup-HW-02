@@ -49,6 +49,7 @@ body{
     color: var(--hero-color);
     background-color: var(--accent-color);
     border: none;
+    cursor: pointer;
 }
 
 /* ==Header==*/
@@ -92,7 +93,7 @@ body{
 .address {
     font-style: normal;
 }
-.footer-contacts {
+.contacts-link {
     font-size: 14px;
     line-height: 1,714;
     letter-spacing: 0.03em;
@@ -103,6 +104,7 @@ body{
 /* Hero */
 .hero-section {
     background: var(--hero-footer-bg);
+    cursor: grab;
 }
 
 .hero {
@@ -171,6 +173,7 @@ body{
 
 /*====Portfolio====*/
 /*Filter*/
+
 .filter-button {
     font-weight: 500;
     font-size: 16px;
@@ -180,12 +183,9 @@ body{
     letter-spacing: 0.03em;
     color: var(--title-color);
     background: var(--fill-team-bg);
+    cursor: pointer;
 }
-.filter-button:hover,
-.filter-button:focus {
-    color: var(--hero-color);
-    background-color: var(--accent-color);
-}
+
 /* Work list*/
 .project-name {
     font-weight: 700;
