@@ -12,9 +12,17 @@
     --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
 
-body{
-    font-family: var(--main-font);
-    
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect (0 0 0 0);
+  clip-path: inset (50%);
+  margin: -1px;
 }
 
 /*Components*/
@@ -27,7 +35,7 @@ body{
 .header-contacts {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.143;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
@@ -41,7 +49,7 @@ body{
 .button {
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 1.88;
     display: flex;
     align-items: center;
     text-align: center;
@@ -58,7 +66,7 @@ body{
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.192;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
@@ -72,7 +80,7 @@ body{
 .navigation-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.143;
+    line-height: 1.14;
     letter-spacing: 00.02em;
     color:var(--title-color)
 }
@@ -85,21 +93,35 @@ body{
     background: var(--hero-footer-bg);
 }
 .company-address {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
     font-size: 14px;
-    line-height: 1.714;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--hero-color);
+    cursor: pointer;
 }
 .address {
     font-style: normal;
+    
 }
 .contacts-link {
     font-size: 14px;
-    line-height: 1,714;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--footer-contacts-color);
 }
+.footer-list {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 
+}
 /*====Studio====*/
 /* Hero */
 .hero-section {
@@ -121,15 +143,15 @@ body{
 .benefits-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 00.03em;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-color);
 }
 .benefits-description {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.714;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
@@ -137,7 +159,7 @@ body{
 .Services-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.167;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
@@ -150,14 +172,14 @@ body{
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.167;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--title-color);
 }
 .employee {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,188;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
@@ -165,7 +187,7 @@ body{
 .position {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,188;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 00.03em;
     color: var(--text-color);
@@ -173,11 +195,15 @@ body{
 
 /*====Portfolio====*/
 /*Filter*/
+.header-contacts:hover,
+.header-contacts:focus {
+    color: var(--accent-color);
+}
 
 .filter-button {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.625;
+    line-height: 1.63;
     border: none;
     text-align: center;
     letter-spacing: 0.03em;
@@ -196,13 +222,13 @@ body{
 }
 .project-type {
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 1.88;
     letter-spacing: 00.03em;
     color: var(--text-color);
 }
 .project-description {
     font-size: 18px;
-    line-height: 1.555;
+    line-height: 1.56;
     letter-spacing: 0.03em;
     color: var(--hero-color);
     background: var(--portfolio-description-bg);
